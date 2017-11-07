@@ -34,7 +34,7 @@ The dataset is organized according to artists and each artist contains their lis
     - *duration*
     - *dislikes*
 
-The sample files can be obtained from the folder archive. The complete dataset can be downloaded form [here].
+The complete dataset can be downloaded form [here].
 
 ## Codes
 
