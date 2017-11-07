@@ -1,6 +1,6 @@
 # Theorytab Crawler
 
-The dataset is crawled from [Theorytab] - a collection of melodies and chord progressions. It contains 4623 artists and 10148 songs in toal. The information of each song is stored as a XML file. In addition, we also crawled the corresponding video and useful information from YouTube.
+The dataset is crawled from [Theorytab] - a collection of melodies and chord progressions. It contains **4623** artists and **10148** songs in toal. The information of each song is stored as a XML file. In addition, we also crawled the corresponding video and useful information from YouTube.
 
 ## Getting Started
 
@@ -34,6 +34,7 @@ The dataset is organized according to artists and each artist contains their lis
     - *duration*
     - *dislikes*
 
+The sample files can be obtained from the folder archive. The complete dataset can be downloaded form [here].
 
 ## Codes
 
@@ -52,3 +53,4 @@ The dataset is organized according to artists and each artist contains their lis
 comming soon...
 
 [Theorytab]: https://www.hooktheory.com/theorytab
+[here]: https://www.hooktheory.com/theorytab
