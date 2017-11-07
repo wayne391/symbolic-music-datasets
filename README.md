@@ -10,12 +10,12 @@ The dataset is crawled from [Theorytab] - a collection of melodies and chord pro
 
 ## Archive
 
-The dataset is organized according to artists and each artist contains their list of songs. The sturcture of the dataset is stored in "archive_artist.json". For each song, their the fowllowing files to record information:
+The dataset is organized according to artists and each artist contains their list of songs. The sturcture of the dataset is stored in **archive_artist.json**. For each song, their the fowllowing files to record information:
  
- - "*.xml"：lead sheet of the section
- - "video.mp4"：YouTtube video
- - "song_info.jon"：metadata of songs
- - "video_info.json"：information from YouTtube
+ - ***.xml**：lead sheet of the section
+ - **video.mp4**：YouTtube video
+ - **song_info.jon**：metadata of songs
+ - **video_info.json**：information from YouTtube
 
 ## Codes
 
