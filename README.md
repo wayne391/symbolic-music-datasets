@@ -1,6 +1,6 @@
 # Theorytab Crawler
 
-The dataset is crawled from [Theorytab] - a large collection of melodies and chord progressions. There are 5000 artists and 15000 songs in total. The details will be elaborated in the next three sections.
+The dataset is crawled from [Theorytab] - a collection of melodies and chord progressions. It contains 4623 artists and 10148 songs in toal. The information of each song is stored as a XML file. In addition, we also crawled the corresponding video and useful information from YouTube. The
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ The dataset is crawled from [Theorytab] - a large collection of melodies and cho
 * [Utils](#Utils)
 
 ## Archive
-
+archive_artist.json
 
 ## Codes
 
