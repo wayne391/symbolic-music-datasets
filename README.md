@@ -43,7 +43,7 @@ Due to the copyright consideration, the full crawled data would not be included 
  - requirements.txt
  - theorytab_crawler.py
  - youtube_crawler.py
- - theorytab_parser.ipynb
+ - theorytab_crawler.ipynb
 
 
 
