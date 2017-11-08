@@ -1,6 +1,6 @@
 # Lead Sheet Collection
 
-The dataset is crawled from [Theorytab] - a collection of melodies and chord progressions. It contains **4623** artists and **10148** songs in toal. The information of each song is stored as a XML file. In addition, we also crawled the corresponding video and useful information from YouTube.
+The collection is crawled from [Theorytab] - a collection of melodies and chord progressions. It contains **4623** artists and **10148** songs in toal. The information of each song is stored as a XML file. In addition, we also crawled the corresponding video and useful information from YouTube.
 
 ## Getting Started
 
@@ -34,7 +34,8 @@ The dataset is organized according to artists and each artist contains their lis
     - *duration*
     - *dislikes*
 
-Due to the copyright consideration, the full craled data provided would not be included in this repository. Functionality can be exemplified by using the included test.xml or test2.xml sample files. This also provides examples of expected source data file formats.
+Due to the copyright consideration, the full crawled data would not be included in this repository. Hence, there is only
+
 ## Codes
 
  - requirements.py
