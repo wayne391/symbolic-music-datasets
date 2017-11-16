@@ -1,0 +1,60 @@
+=================================================
+https://www.hymnal.net/en/song-index/h/A
+https://www.hymnal.net/en/song-index/h/B
+https://www.hymnal.net/en/song-index/h/C
+https://www.hymnal.net/en/song-index/h/D
+https://www.hymnal.net/en/song-index/h/E
+https://www.hymnal.net/en/song-index/h/F
+https://www.hymnal.net/en/song-index/h/G
+https://www.hymnal.net/en/song-index/h/H
+https://www.hymnal.net/en/song-index/h/I
+https://www.hymnal.net/en/song-index/h/J
+https://www.hymnal.net/en/song-index/h/K
+https://www.hymnal.net/en/song-index/h/L
+https://www.hymnal.net/en/song-index/h/M
+https://www.hymnal.net/en/song-index/h/N
+https://www.hymnal.net/en/song-index/h/O
+https://www.hymnal.net/en/song-index/h/P
+https://www.hymnal.net/en/song-index/h/R
+https://www.hymnal.net/en/song-index/h/S
+https://www.hymnal.net/en/song-index/h/T
+https://www.hymnal.net/en/song-index/h/U
+https://www.hymnal.net/en/song-index/h/V
+https://www.hymnal.net/en/song-index/h/W
+https://www.hymnal.net/en/song-index/h/Y
+https://www.hymnal.net/en/song-index/nt
+https://www.hymnal.net/en/song-index/ns/1
+https://www.hymnal.net/en/song-index/ns/2
+https://www.hymnal.net/en/song-index/ns/A
+https://www.hymnal.net/en/song-index/ns/B
+https://www.hymnal.net/en/song-index/ns/C
+https://www.hymnal.net/en/song-index/ns/D
+https://www.hymnal.net/en/song-index/ns/E
+https://www.hymnal.net/en/song-index/ns/F
+https://www.hymnal.net/en/song-index/ns/G
+https://www.hymnal.net/en/song-index/ns/H
+https://www.hymnal.net/en/song-index/ns/I
+https://www.hymnal.net/en/song-index/ns/J
+https://www.hymnal.net/en/song-index/ns/K
+https://www.hymnal.net/en/song-index/ns/L
+https://www.hymnal.net/en/song-index/ns/M
+https://www.hymnal.net/en/song-index/ns/N
+https://www.hymnal.net/en/song-index/ns/O
+https://www.hymnal.net/en/song-index/ns/P
+https://www.hymnal.net/en/song-index/ns/R
+https://www.hymnal.net/en/song-index/ns/S
+https://www.hymnal.net/en/song-index/ns/T
+https://www.hymnal.net/en/song-index/ns/U
+https://www.hymnal.net/en/song-index/ns/V
+https://www.hymnal.net/en/song-index/ns/W
+https://www.hymnal.net/en/song-index/ns/Y
+https://www.hymnal.net/en/song-index/ns/Z
+https://www.hymnal.net/en/song-index/c
+> classic
+    (1/1950) https://www.hymnal.net/en/hymn/h/877
+    (2/1950) https://www.hymnal.net/en/hymn/h/292
+    (3/1950) https://www.hymnal.net/en/hymn/h/509
+    (4/1950) https://www.hymnal.net/en/hymn/h/952
+    (5/1950) https://www.hymnal.net/en/hymn/h/724
+    (6/1950) https://www.hymnal.net/en/hymn/h/886
+    (7/1950) https://www.hymnal.net/en/hymn/h/1198
