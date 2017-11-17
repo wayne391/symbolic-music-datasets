@@ -7,7 +7,7 @@ import string
 import random
 from lxml import etree
 
-class HymnCraler():
+class HymnCrawler():
     BASE_URL = 'https://www.hymnal.net'
     
     def __init__(self, sleep_time = 0.1, log=True):
@@ -22,6 +22,7 @@ class HymnCraler():
 
     def _request_url(self, url, doctype='html'):
         response = requests.get(url)
+        time.sleep(self.sleep_time)
         if doctype =='html':
             soup = BeautifulSoup(response.text, 'html.parser')
             return soup
@@ -170,7 +171,7 @@ class HymnCraler():
 
 if __name__ == '__main__':
     
-    hc = HymnCraler()
+    hc = HymnCrawler()
     s = time.time()
     hc.run()
     e = time.time()
