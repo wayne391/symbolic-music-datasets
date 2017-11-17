@@ -52,10 +52,16 @@ class Crawler():
                 print(log, file=f)
 
     def fetch_page(self, url):
-        self._request_url(url)
+        try:
+            self._request_url(url)
+        except  Exception as e:
+            print(e)
         
     def fetch_content(self, url, dir_= None):
-        self._request_url(url, doctype='content')
+        try:
+            self._request_url(url, doctype='content')
+        except  Exception as e:
+            print(e)
         
 #         if dir_:
 #             with open(dir_, "w") as f:
