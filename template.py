@@ -55,13 +55,13 @@ class Crawler():
         try:
             self._request_url(url)
         except Exception as e:
-            print(e)
+            self._log_print(e)
         
     def fetch_content(self, url, dir_= None):
         try:
             self._request_url(url, doctype='content')
         except Exception as e:
-            print(e)
+            self._log_print(e)
         
 #         if dir_:
 #             with open(dir_, "w") as f:
