@@ -1,9 +1,9 @@
 # Lead Sheet Collections
 
-This collections include the following sources from the internet: 
+This collections include the following sources from the internet:
 * [Theorytab]
 * [hymnal.net]
-* [Wikifonia]
+* [Wikifonia] (backup)
 
 
 [Theorytab]: https://www.hooktheory.com/theorytab
