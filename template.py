@@ -1,17 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+import sys
 import time
 import json
 import random
 
 class Crawler():
     BASE_URL = ''
-    
+
     def __init__(self, sleep_time=0.1, log=True):
         self.sleep_time = sleep_time
-        self.log = log 
-        
+        self.log = log
+
     def _get_header():
         headersList = [
                 {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'},
@@ -23,17 +24,17 @@ class Crawler():
             ]
         idx = random.randint(0,len(headersList)-1)
         return headersList[idx]
-    
+
     def _request_url(self, url, doctype='html', is_header=False):
         # set header
         if is_header
             response = requests.get(url, headers=self._get_header())
         else:
             response = requests.get(url)
-        
+
         # sleep
         time.sleep(self.leep_time)
-        
+
         # return
         if doctype =='html':
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -46,7 +47,7 @@ class Crawler():
     def _log_print(self, log, quite=False):
         if not quite:
             print(log)
-            
+
         if self.log:
             with open("log.txt", "a") as f:
                 print(log, file=f)
@@ -56,13 +57,13 @@ class Crawler():
             self._request_url(url)
         except Exception as e:
             self._log_print(e)
-        
+
     def fetch_content(self, url, dir_= None):
         try:
             self._request_url(url, doctype='content')
         except Exception as e:
             self._log_print(e)
-        
+
 #         if dir_:
 #             with open(dir_, "w") as f:
 #                 json.dump()
@@ -77,18 +78,22 @@ class Crawler():
 
         count = 0
 
-#         self.fetch_page(url)
-#         self.fetch_content(url)
 
-    def run(self, dir_=None):           
+        # sys.stdout.write()
+        # sys.stdout.flush()
+
+        # self.fetch_page(url)
+        # self.fetch_content(url)
+
+    def run(self, dir_=None):
         self._log_print("=================================================")
         self.crawl_()
 
 if __name__ == '__main__':
-    
+
     c = Crawler()
     s = time.time()
     c.run()
     e = time.time()
-    
+
     time.strftime("\nElapsed time: %H:%M:%S", time.gmtime(s-e))
