@@ -13,12 +13,12 @@ This collections include the following sources from the internet:
 | [Hymnal]              |  hymn      |   V  |   Δ   |   V    |        |
 
 ### Midi Only
-| Source                | Genre      | MIDI | Multi-track | Songs  |        |
-|-----------------------|:----------:|:----:|:-----------:|:------:|:------:|
-| [midiworld]           |  pop       |   V  |   V         |        |        |
-| [VGMdb]               |  game      |   V  |   V         |        |        |
-| [Doug McKenzie Jazz]  |  jazz      |   V  |   V         |        |        |
-| [Piano-e-Competition] |  classical |   V  |             |        |        |
+| Source                | Genre      | Songs  |        |
+|-----------------------|:----------:|:------:|:------:|
+| [midiworld]           |  pop       |        |        |
+| [VGMdb]               |  game      |        |        |
+| [Doug McKenzie Jazz]  |  jazz      |        |        |
+| [Piano-e-Competition] |  classical |        |        |
 
 No explicit melody tracks.
 
