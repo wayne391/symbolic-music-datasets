@@ -3,7 +3,7 @@
 This collections include the following sources from the internet:
 
 
-| Source                | Genre      | MIDI | Chord | Melody | Songs  | last updating |
+| Source                | Genre      | MIDI | Chord | Melody | Songs  |          |
 |-----------------------|:----------:|:----:|:-----:|:------:|:------:|:-------------:|
 | [Theorytab]           |  pop       |   V  |   V   |   V    |        |
 | [WJazzD]              |  jazz      |   V  |   V   |   V    |        |
