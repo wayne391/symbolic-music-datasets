@@ -12,6 +12,7 @@ This collections include the following sources from the internet:
 | [Piano-e-Competition] |  classical |   V  |       |        |        |
 | [midiworld]           |  pop       |   V  |       |        |        |
 | [VGMdb]               |  game      |   V  |       |        |        |
+| [Doug McKenzie Jazz]  |  jazz      |   V  |       |        |        |
 
 
 [Theorytab]: https://www.hooktheory.com/theorytab
@@ -21,3 +22,4 @@ This collections include the following sources from the internet:
 [WJazzD]: http://jazzomat.hfm-weimar.de/dbformat/dboverview.html
 [midiworld]: http://www.midiworld.com
 [VGMdb]: https://www.vgmusic.com
+[Doug McKenzie Jazz]: http://bushgrafts.com/wp/
