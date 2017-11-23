@@ -3,17 +3,24 @@
 This collections include the following sources from the internet:
 
 
+### Lead Sheets
+
 | Source                | Genre      | MIDI | Chord | Melody | Songs  |          |
-|-----------------------|:----------:|:----:|:-----:|:------:|:------:|:-------------:|
+|-----------------------|:----------:|:----:|:-----:|:------:|:------:|:--------:|
 | [Theorytab]           |  pop       |   V  |   V   |   V    |        |
 | [WJazzD]              |  jazz      |   V  |   V   |   V    |        |
 | [Wikifonia]           |  pop       |   V  |   V   |   V    |        |
 | [Hymnal]              |  hymn      |   V  |   Δ   |   V    |        |
-| [Piano-e-Competition] |  classical |   V  |       |        |        |
-| [midiworld]           |  pop       |   V  |       |        |        |
-| [VGMdb]               |  game      |   V  |       |        |        |
-| [Doug McKenzie Jazz]  |  jazz      |   V  |       |        |        |
 
+### Midi Only
+| Source                | Genre      | MIDI | Multi-track | Songs  |        |
+|-----------------------|:----------:|:----:|:-----------:|:------:|:------:|
+| [midiworld]           |  pop       |   V  |   V         |        |        |
+| [VGMdb]               |  game      |   V  |   V         |        |        |
+| [Doug McKenzie Jazz]  |  jazz      |   V  |   V         |        |        |
+| [Piano-e-Competition] |  classical |   V  |             |        |        |
+
+No explicit melody tracks.
 
 [Theorytab]: https://www.hooktheory.com/theorytab
 [Hymnal]: https://www.hymnal.net/en/home
