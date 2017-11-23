@@ -3,8 +3,8 @@
 This collections include the following sources from the internet:
 
 
-| Source                | Genre      | MIDI | Chord | Melody | Size   | updating time |
-|-----------------------|------------|------|-------|--------|--------|---------------|
+| Source                | Genre      | MIDI | Chord | Melody | Songs  | last updating |
+|-----------------------|:----------:|:----:|:-----:|:------:|:------:|:-------------:|
 | [Theorytab]           |  pop       |   V  |   V   |   V    |        |
 | [WJazzD]              |  jazz      |   V  |   V   |   V    |        |
 | [Wikifonia]           |  pop       |   V  |   V   |   V    |        |
