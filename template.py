@@ -96,4 +96,4 @@ if __name__ == '__main__':
     c.run()
     e = time.time()
 
-    time.strftime("\nElapsed time: %H:%M:%S", time.gmtime(s-e))
+    print(time.strftime("\nElapsed time: %H:%M:%S", time.gmtime(s-e)))
