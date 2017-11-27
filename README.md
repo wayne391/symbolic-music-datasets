@@ -5,20 +5,20 @@ This collections include the following sources from the internet:
 
 ### Lead Sheets
 
-| Source                | Genre      | MIDI | Chord | Melody | Songs  |          |
-|-----------------------|:----------:|:----:|:-----:|:------:|:------:|:--------:|
-| [Theorytab]           |  pop       |   V  |   V   |   V    |        |
-| [WJazzD]              |  jazz      |   V  |   V   |   V    |        |
-| [Wikifonia]           |  pop       |   V  |   V   |   V    |        |
-| [Hymnal]              |  hymn      |   V  |   Δ   |   V    |        |
+| Source                | Genre      | MIDI | Chord | Melody | Status |  Open  |
+|-----------------------|:----------:|:----:|:-----:|:------:|:------:|:------:|
+| [Theorytab]           |  pop       |   V  |   V   |   V    |   OK   |   N    |
+| [WJazzD]              |  jazz      |   V  |   V   |   V    |        |   O    |
+| [Wikifonia]           |  pop       |   V  |   V   |   V    |   OK   |   Y    |
+| [Hymnal]              |  hymn      |   V  |   Δ   |   V    |   Ok   |   Y    |
 
 ### Midi Only
-| Source                | Genre      | Songs  |        |
-|-----------------------|:----------:|:------:|:------:|
-| [midiworld]           |  pop       |        |        |
-| [VGMdb]               |  game      |        |        |
-| [Doug McKenzie Jazz]  |  jazz      |        |        |
-| [Piano-e-Competition] |  classical |        |        |
+| Source                | Genre      | Songs  | Status |  Open  |
+|-----------------------|:----------:|:------:|:------:|:------:|
+| [midiworld]           |  pop       |        |        |   Y    |
+| [VGMdb]               |  game      |        |        |   Y    |
+| [Doug McKenzie Jazz]  |  jazz      |        |   OK   |   Y    |
+| [Piano-e-Competition] |  classical |        |        |   Y    |
 
 No explicit melody tracks.
 
