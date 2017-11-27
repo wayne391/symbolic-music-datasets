@@ -1,6 +1,6 @@
-# hymnal
+# Doug Mckenzie Jazz
 
 [source]
 
 
-[source]: https://drive.google.com/drive/folders/1fP9OmQa9amz-nwaaaITggCEWs3ewz1_8?usp=sharing
+[source]: https://drive.google.com/drive/folders/1wVVDpcov5VV6Govhn1-CT0BOifqoF-Od?usp=sharing
