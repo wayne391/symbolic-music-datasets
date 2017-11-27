@@ -33,7 +33,7 @@ class Crawler():
             response = requests.get(url)
 
         # sleep
-        time.sleep(self.leep_time)
+        time.sleep(self.sleep_time)
 
         # return
         if doctype =='html':
