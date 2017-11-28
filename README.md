@@ -16,7 +16,7 @@ This collections include the following sources from the internet:
 | Source                | Genre      | Songs  | Status |  Open  |
 |-----------------------|:----------:|:------:|:------:|:------:|
 | [midiworld]           |  pop       |        |        |   Y    |
-| [VGMdb]               |  game      |        |        |   Y    |
+| [VGMdb]               |  game      |        |   OK   |   Y    |
 | [Doug McKenzie Jazz]  |  jazz      |        |   OK   |   Y    |
 | [Piano-e-Competition] |  classical |        |        |   Y    |
 
