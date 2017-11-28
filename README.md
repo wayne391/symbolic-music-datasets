@@ -1,6 +1,6 @@
 # List of Symbolic Musical Datasets
 
-This repository aims to collect symolic musical datasets. Moreover, for the purpose of research, I tried to find those with more valuable tags such as genres, chords and explicit melody tracks. Notice that I do not own these datasets and due to the consideration of copyrights, some of them will not be opened. However, for the advanced utilization, I will write some codes for conversions between different formats.
+This repository aims to collect symolic musical datasets. Moreover, for the purpose of research, I tried to find those with more valuable tags such as genres, chords and explicit melody tracks. Moreover, for the advanced utilization, I will write some codes for conversions between different formats. Notice that I do not own these datasets and due to the consideration of copyrights, some of them will not be opened.
 
 ### Lead Sheets
 
