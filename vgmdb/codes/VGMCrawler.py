@@ -126,7 +126,7 @@ class VGMCrawler():
         self.crawl_archive()
         e = time.time()
         self._log_print(time.strftime("\nElapsed time: %H:%M:%S", time.gmtime(s-e)))
-        self._log_print('Total %d Songs'&self.count)
+        self._log_print('Total %d Songs'%self.count)
 
 if __name__ == '__main__':
     vc = VGMCrawler()
