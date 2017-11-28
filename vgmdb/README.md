@@ -1,6 +1,6 @@
-# hymnal
+# VGMdb
 
 [source]
 
 
-[source]: https://drive.google.com/drive/folders/1fP9OmQa9amz-nwaaaITggCEWs3ewz1_8?usp=sharing
+[source]: https://drive.google.com/drive/folders/1IW83MmH-RJ81yog6sbOUOTHimobE4FuK?usp=sharing
