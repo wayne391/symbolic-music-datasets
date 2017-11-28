@@ -1,26 +1,29 @@
-# Lead Sheet Collections
+# List of Symbolic Musical Datasets
 
-This collections include the following sources from the internet:
-
+This repository aims to collect symolic musical datasets. Moreover, for the purpose of research, I tried to find those with more valuable tags such as genres, chords and explicit melody tracks. Notice that I do not own these datasets and due to the consideration of copyrights, some of them will not be opened. However, for the advanced utilization, I will write some codes for conversions between different formats.
 
 ### Lead Sheets
 
-| Source                | Genre      | MIDI | Chord | Melody | Status |  Open  |
-|-----------------------|:----------:|:----:|:-----:|:------:|:------:|:------:|
-| [Theorytab]           |  pop       |   V  |   V   |   V    |   OK   |   N    |
-| [WJazzD]              |  jazz      |   V  |   V   |   V    |        |   O    |
-| [Wikifonia]           |  pop       |   V  |   V   |   V    |   OK   |   Y    |
-| [Hymnal]              |  hymn      |   V  |   Δ   |   V    |   Ok   |   Y    |
 
-### Midi Only
-| Source                | Genre      | Songs  | Status |  Open  |
-|-----------------------|:----------:|:------:|:------:|:------:|
-| [midiworld]           |  pop       |        |        |   Y    |
-| [VGMdb]               |  game      |        |   OK   |   Y    |
-| [Doug McKenzie Jazz]  |  jazz      |        |   OK   |   Y    |
-| [Piano-e-Competition] |  classical |        |        |   Y    |
+| Source                | Genre      | Format | Chord | Melody | Songs  | Src  |
+|-----------------------|:----------:|:------:|:-----:|:------:|:------:|:----:|
+| [Theorytab]           |  pop       |   XML  |   V   |   V    | 10148  |  N   |
+| [WJazzD]              |  jazz      |   DB   |   V   |   V    |   --   |  O   |
+| [Wikifonia]           |  pop       |   XML  |   V   |   V    |  6675  |  Y   |
+| [Hymnal]              |  hymn      |   MIDI |   Δ   |   V    |  3358  |  Y   |
 
-No explicit melody tracks.
+### Midi Only, Specific Genre
+| Source                | Genre      | Multi-track | Format |Songs  | src |
+|-----------------------|:----------:|:-----------:|:------:|:------:|:---:|
+| [VGMdb]               |  game      |      V      |  MIDI  | 28419  |  Y  |
+| [Doug McKenzie Jazz]  |  jazz      |      V      |  MIDI  |  297   |  Y  |
+| [Piano-e-Competition] |  classical |             |  MIDI  |        |  Y  |
+
+#### other sources
+* [midiworld]
+* [Lakh MIDI dataset]
+
+
 
 [Theorytab]: https://www.hooktheory.com/theorytab
 [Hymnal]: https://www.hymnal.net/en/home
@@ -30,3 +33,4 @@ No explicit melody tracks.
 [midiworld]: http://www.midiworld.com
 [VGMdb]: https://www.vgmusic.com
 [Doug McKenzie Jazz]: http://bushgrafts.com/wp/
+[Lakh MIDI dataset]: http://colinraffel.com/projects/lmd/
