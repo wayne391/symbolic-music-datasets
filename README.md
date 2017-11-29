@@ -17,7 +17,7 @@ This repository aims to collect symolic musical datasets. Moreover, for the purp
 |-----------------------|:----------:|:-----------:|:------:|:------:|:---:|
 | [VGMdb]               |  game      |      V      |  MIDI  | 28419  |  Y  |
 | [Doug McKenzie Jazz]  |  jazz      |      V      |  MIDI  |  297   |  Y  |
-| [Piano-e-Competition] |  classical |             |  MIDI  |        |  Y  |
+| [Piano-e-Competition] |  classical |             |  MIDI  | 1573   |  Y  |
 
 #### other sources
 * [midiworld]
