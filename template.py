@@ -14,20 +14,18 @@ class Crawler():
         self.log = log
 
     def _get_header():
-        headersList = [
-                {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'},
-                {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'},
-                {'User-Agent':'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'},
-                {'User-Agent':'Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.11'},
-                {'User-Agent':'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.8.131 Version/11.11'},
-                {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11'},
-            ]
-        idx = random.randint(0,len(headersList)-1)
-        return headersList[idx]
+        headers = None
+        return headers
+
+    def _get_form_data():
+        data = None
+        return data
 
     def _request_url(self, url, doctype='html', is_header=False):
         # set header
         if is_header
+            # requests.post(url, headers=self._get_header(),
+            #                               data=self._get_form_data())
             response = requests.get(url, headers=self._get_header())
         else:
             response = requests.get(url)
@@ -66,11 +64,11 @@ class Crawler():
 
 #         if dir_:
 #             with open(dir_, "w") as f:
-#                 json.dump()
+#                 json.dump(c, f)
 #             with open(dir_, "wb") as f:
-#                 f.write()
+#                 f.write(c)
 #             with open(dir_, "w", encoding='utf-8') as f:
-#                 f.write()
+#                 f.write(c)
 
     def crawl_(self, dir_ = None):
         if not os.path.exists(dir_):
@@ -87,13 +85,16 @@ class Crawler():
 
     def run(self, dir_=None):
         self._log_print("=================================================")
+        c = Crawler()
+
+        s = time.time()
         self.crawl_()
+        e = time.time()
+
+        self._log_print(time.strftime("\nElapsed time: %H:%M:%S", time.gmtime(s-e)))
+
 
 if __name__ == '__main__':
-
-    c = Crawler()
-    s = time.time()
     c.run()
-    e = time.time()
 
-    print(time.strftime("\nElapsed time: %H:%M:%S", time.gmtime(s-e)))
+
