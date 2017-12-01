@@ -50,6 +50,14 @@ class Crawler():
             with open("log.txt", "a") as f:
                 print(log, file=f)
 
+    def _traverse_dir(self, root_dir, extension='.xml'):
+        file_list = []
+        for root, dirs, files in os.walk(root_dir):
+            for file in files:
+                if file.endswith(extension):
+                    file_list.append(os.path.join(root, file))
+        return file_lists
+
     def fetch_page(self, url):
         try:
             self._request_url(url)
