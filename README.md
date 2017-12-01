@@ -1,7 +1,8 @@
 # List of Symbolic Musical Datasets
 
-This repository aims to collect symolic musical datasets with more valucable and detailed labels, such as, genres, chords and explicit melody tracks. Moreover, for the advanced utilization, I will write some codes for conversions between different formats. Notice that I do not own these datasets and due to the consideration of copyrights, some of them will not be opened.
+This repository aims to collect symolic musical datasets with more valucable and detailed labels, such as, **genres**, **chords** and explicit **melody tracks**. Moreover, for the advanced utilization, I will write some codes for conversions between different formats. Notice that I do **not** own these datasets and due to the consideration of copyrights, some of them will not be opened.
 
+Generally, each file is organzed in three folders: *archive*, *codes* and *utils*. The folder *archive* shows the structure of the datasets. The codes for crawling are placed under *codes* folder.
 
 
 ### Lead Sheets
@@ -17,9 +18,9 @@ An explicit melody track accompinied with a chord track.
 --------------
 
 ### Midi Only
-Only metadata labels like composer and genre.
+Specific Genre, Only metadata labels like composer and genre.
 
-#### Specific Genre
+####
 
 | Source                | Genre      | Multi-track | Format |Songs  | src |
 |-----------------------|:----------:|:-----------:|:------:|:------:|:---:|
@@ -27,11 +28,19 @@ Only metadata labels like composer and genre.
 | [Doug McKenzie Jazz]  |  jazz      |      V      |  MIDI  |  297   |  Y  |
 | [Piano-e-Competition] |  classical |             |  MIDI  | 1573   |  Y  |
 
-#### other sources
+### Other Resources
 Multiple genres and multi-track midi only datasets
 * [midiworld]
 * [Lakh MIDI dataset]
-
+* Jazz Realbooks and midis
+    * http://www.musicstudents.com/jam.html (backing track and chord charts)
+    * https://www.cs.hmc.edu/~keller/jazz/
+    * http://www.ralphpatt.com/Song.html
+    * http://www.profesordepiano.com/Real%20Book/Realbook.htm
+    * http://www.saxuet.qc.ca/TheSaxyPage/midi.htm
+    * http://www.thejazzpage.de/index1.html
+    * http://cjam.lassecollin.se/
+    * http://www.jazzpla.net/jazznote3000.htm
 
 
 [Theorytab]: https://www.hooktheory.com/theorytab
@@ -43,18 +52,3 @@ Multiple genres and multi-track midi only datasets
 [VGMdb]: https://www.vgmusic.com
 [Doug McKenzie Jazz]: http://bushgrafts.com/wp/
 [Lakh MIDI dataset]: http://colinraffel.com/projects/lmd/
-
---------------
-
-#### Potential Resources:
-[Jazz Realbooks and midis]
-* http://www.musicstudents.com/jam.html (backing track and chord charts)
-
-
-* https://www.cs.hmc.edu/~keller/jazz/
-* http://www.ralphpatt.com/Song.html
-* http://www.profesordepiano.com/Real%20Book/Realbook.htm
-* http://www.saxuet.qc.ca/TheSaxyPage/midi.htm
-* http://www.thejazzpage.de/index1.html
-* http://cjam.lassecollin.se/
-* http://www.jazzpla.net/jazznote3000.htm
