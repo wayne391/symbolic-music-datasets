@@ -5,6 +5,8 @@
 ## Contents
 The dataset is organized according to artists and each artist contains their list of songs. The sturcture of the dataset is discripted in **archive_artist.json**. For each song,it contains the following files:
 
+[source](https://drive.google.com/drive/folders/1vUzY31vxWpjQHcZjHzb77mfSoNatHTBR?usp=sharing)
+
  - ***.xml**：lead sheets of the section
  - **video.mp4**：YouTtube video
  - **song_info.jon**：metadata of songs
