@@ -2,10 +2,12 @@
 
 - a database for melodies and chord progressions. It contains **4623** artists and **10148** songs in toal. The information of each song is stored as a XML file. In addition, we also crawled the corresponding video and useful information from YouTube.
 
+[source](https://drive.google.com/drive/folders/1vUzY31vxWpjQHcZjHzb77mfSoNatHTBR?usp=sharing)
+
 ## Contents
 The dataset is organized according to artists and each artist contains their list of songs. The sturcture of the dataset is discripted in **archive_artist.json**. For each song,it contains the following files:
 
-[source](https://drive.google.com/drive/folders/1vUzY31vxWpjQHcZjHzb77mfSoNatHTBR?usp=sharing)
+
 
  - ***.xml**：lead sheets of the section
  - **video.mp4**：YouTtube video
