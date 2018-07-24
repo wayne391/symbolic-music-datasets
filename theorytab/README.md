@@ -2,7 +2,7 @@
 
 - a database for melodies and chord progressions. It contains **4623** artists and **10148** songs in toal. The information of each song is stored as a XML file. In addition, we also crawled the corresponding video and useful information from YouTube.
 
-[source](https://drive.google.com/drive/folders/1vUzY31vxWpjQHcZjHzb77mfSoNatHTBR?usp=sharing)
+
 
 ## Contents
 The dataset is organized according to artists and each artist contains their list of songs. The sturcture of the dataset is discripted in **archive_artist.json**. For each song,it contains the following files:
@@ -33,8 +33,6 @@ The dataset is organized according to artists and each artist contains their lis
 
 Due to the copyright consideration, the full crawled data would not be included in this repository. Hence, only few sample files are exhibited.
 
-## Utils
-TBI
 
 [Theorytab]: https://www.hooktheory.com/theorytab
 
