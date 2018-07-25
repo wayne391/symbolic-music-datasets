@@ -1,8 +1,8 @@
 # List of Symbolic Musical Datasets
 
 This repository aims to collect accessible symolic musical datasets on the Net.
-Generally, each dataset is organized as th following way:
-* archive: samples from th dataset
+Generally, each dataset is organized as the following way:
+* archive: samples from the dataset
 * utils: codes for crawling or processing
 
 ## Piano Roll
