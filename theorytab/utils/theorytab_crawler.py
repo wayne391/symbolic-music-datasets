@@ -6,6 +6,12 @@ import json
 import string
 
 
+website = 'https://www.hooktheory.com'
+base_url = website + '/theorytab/artists/'
+sleep_time = 0.11
+alphabet_list = string.ascii_lowercase
+
+
 def song_retrieval(artist, song, path_song):
 
     song_url = 'https://www.hooktheory.com/theorytab/view/' + artist + '/' + song
@@ -64,38 +70,34 @@ def get_song_list(url_artist, quite=False):
     return song_name_list
 
 
-if __name__ == '__main__':
-    # Retrive urls of all  artists and songs
+def traverse_website():
+    '''
+    Retrieve all urls of artists and songs from the website
+    '''
 
     list_pages = []
     archive_artist = dict()
-    sleep_time = 0.11
-    alphabet_list = string.ascii_lowercase
-
-    website = 'https://www.hooktheory.com'
-    base_url = website + '/theorytab/artists/'
-
     artist_count = 0
     song_count = 0
 
     for ch in alphabet_list:
         time.sleep(sleep_time)
-        url = base_url+ch
+        url = base_url + ch
         response_tmp = requests.get(url)
         soup = BeautifulSoup(response_tmp.text, 'html.parser')
         page_count = 0
 
-        print('==[%c]================================================='%ch)
+        print('==[%c]=================================================' % ch)
 
         # get artists list by pages
         url_artist_list = []
-        for page in range(1,9999):
+        for page in range(1, 9999):
             url = 'https://www.hooktheory.com/theorytab/artists/'+ch+'?page=' + str(page)
 
             time.sleep(sleep_time)
             response_tmp = requests.get(url)
             soup = BeautifulSoup(response_tmp.text, 'html.parser')
-            item_list = soup.find_all("li", { "class":"grid-item"})
+            item_list = soup.find_all("li", {"class": "grid-item"})
 
             if item_list:
                 print(url)
@@ -113,16 +115,16 @@ if __name__ == '__main__':
         if not page_count:
             page_count = 1
 
-        ## get song of artists
+        # get song of artists
         artist_song_dict = dict()
 
         for url_artist in url_artist_list:
-            artist_count+=1
+            artist_count += 1
             time.sleep(sleep_time)
             artist_name = url_artist.split('/')[-1]
             print(artist_name)
             song_name_list = get_song_list(url_artist)
-            song_count  += len(song_name_list)
+            song_count += len(song_name_list)
             artist_song_dict[artist_name] = song_name_list
 
         archive_artist[ch] = artist_song_dict
@@ -133,22 +135,28 @@ if __name__ == '__main__':
     print('Artists:', artist_count)
     print('Songs:', song_count)
 
+    archive_artist['num_song'] = song_count
+    archive_artist['num_artist'] = artist_count
 
     with open('archive_artist.json', "w") as f:
         json.dump(archive_artist, f)
 
 
-    # Retrieve each songs
-    root_dir = 'archive'
+if __name__ == '__main__':
 
+    traverse_website()
+
+    # root for crawled dataset
+    root_dir = 'archive'
     with open('archive_artist.json', "r") as f:
         archive_artist = json.load(f)
 
-    now_count = 1
+    count_ok = 0
+    song_count = archive_artist['num_song']
 
     for ch in alphabet_list:
         path_ch = os.path.join(root_dir, ch)
-        print('==[%c]================================================='%ch)
+        print('==[%c]=================================================' % ch)
 
         if not os.path.exists(path_ch):
             os.makedirs(path_ch)
@@ -156,14 +164,19 @@ if __name__ == '__main__':
         for a_name in archive_artist[ch].keys():
             for s_name in archive_artist[ch][a_name]:
 
-                print('(%3d/%3d) %s   %s' % (now_count, song_count, a_name , s_name))
-                path_song = os.path.join(path_ch, a_name, s_name)
+                try:
+                    print('(%3d/%3d) %s   %s' % (count_ok, song_count, a_name, s_name))
+                    path_song = os.path.join(path_ch, a_name, s_name)
 
-                if not os.path.exists(path_song):
-                    os.makedirs(path_song)
+                    if not os.path.exists(path_song):
+                        os.makedirs(path_song)
 
-                time.sleep(sleep_time)
-                song_retrieval(a_name, s_name, path_song)
+                    time.sleep(sleep_time)
+                    song_retrieval(a_name, s_name, path_song)
 
-                now_count+=1
+                    count_ok += 1
 
+                except Exception as e:
+                    print(e)
+
+    print('total:', count_ok)
