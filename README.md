@@ -9,7 +9,7 @@ Generally, each dataset is organized as th following way:
 
 
 ## Lead Sheets
-An explicit melody track accompinied with a chord track.
+melody + chord
 
 #### Crawled Datasets
 | Source                | Genre      | Format | Chord | Melody | Songs  | Src  |
@@ -26,8 +26,6 @@ An explicit melody track accompinied with a chord track.
 --------------
 
 ## Midi
-Specific Genre, Only metadata labels like composer and genre.
-
 #### Crawled Datasets
 | Source                | Genre      | Multi-track | Format |Songs  | src |
 |-----------------------|:----------:|:-----------:|:------:|:------:|:---:|
@@ -40,6 +38,7 @@ Specific Genre, Only metadata labels like composer and genre.
 
 * midiworld: http://www.midiworld.com
 * Lakh MIDI dataset: http://colinraffel.com/projects/lmd/
+
 
 ## Other Resources
 Jazz Realbooks and midis
