@@ -9,7 +9,7 @@ Generally, each dataset is organized as the following way:
 
 
 ## Lead Sheets
-melody + chord
+one melody track accompanied with one chord track
 
 #### Crawled Datasets
 | Source                | Genre      | Format | Chord | Melody | Songs  | Src  |
