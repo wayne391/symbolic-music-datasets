@@ -11,7 +11,7 @@ Generally, each dataset is organized as th following way:
 ## Lead Sheets
 An explicit melody track accompinied with a chord track.
 
-### Crawled Datasets
+#### Crawled Datasets
 | Source                | Genre      | Format | Chord | Melody | Songs  | Src  |
 |-----------------------|:----------:|:------:|:-----:|:------:|:------:|:----:|
 | [Theorytab]           |  pop       |   XML  |   V   |   V    | 10148  |  X
@@ -19,7 +19,7 @@ An explicit melody track accompinied with a chord track.
 | [Hymnal]              |  hymn      |   MIDI |   Δ   |   V    |  3358  |  [O](https://drive.google.com/drive/folders/1fP9OmQa9amz-nwaaaITggCEWs3ewz1_8?usp=sharing)
 
 
-### Links
+#### Links
 
 * WJazzD:  http://jazzomat.hfm-weimar.de/dbformat/dboverview.html
 
@@ -28,7 +28,7 @@ An explicit melody track accompinied with a chord track.
 ## Midi
 Specific Genre, Only metadata labels like composer and genre.
 
-### Crawled Datasets
+#### Crawled Datasets
 | Source                | Genre      | Multi-track | Format |Songs  | src |
 |-----------------------|:----------:|:-----------:|:------:|:------:|:---:|
 | [VGMdb]               |  game      |      V      |  MIDI  | 28419  |  [O](https://drive.google.com/drive/folders/1IW83MmH-RJ81yog6sbOUOTHimobE4FuK?usp=sharing)
@@ -36,7 +36,7 @@ Specific Genre, Only metadata labels like composer and genre.
 | [Piano-e-Competition] |  classical |             |  MIDI  | 1573   |  [O](https://drive.google.com/drive/folders/17yAGt3AR6txSZv8DBcbAbT3luTMkrkIb?usp=sharing)
 
 
-### Links
+#### Links
 
 * midiworld: http://www.midiworld.com
 * Lakh MIDI dataset: http://colinraffel.com/projects/lmd/
