@@ -19,7 +19,7 @@ This dataset is derived from [Theorytab]. However, it also has potentials to inc
 ## Lead Sheets
 one melody track accompanied with one chord track
 
-#### Crawled Datasets
+### Crawled Datasets
 | Source                | Genre      | Format | Chord | Melody | Songs  | Src  |
 |-----------------------|:----------:|:------:|:-----:|:------:|:------:|:----:|
 | [Theorytab]           |  pop       |   XML  |   V   |   V    | 10148  |  X
@@ -34,7 +34,7 @@ one melody track accompanied with one chord track
 --------------
 
 ## Midi
-#### Crawled Datasets
+### Crawled Datasets
 | Source                | Genre      | Multi-track | Format |Songs  | src |
 |-----------------------|:----------:|:-----------:|:------:|:------:|:---:|
 | [VGMdb]               |  game      |      V      |  MIDI  | 28419  |  [O](https://drive.google.com/drive/folders/1IW83MmH-RJ81yog6sbOUOTHimobE4FuK?usp=sharing)
