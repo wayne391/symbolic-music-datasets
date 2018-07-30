@@ -9,7 +9,7 @@ New training data for MuseGAN. The 5 tracks are drum, bass, guitar, string, pian
 
 ![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/5-track_pianoroll.PNG)
 
-To get the processes data. First of all, get 'lpd_cleansed' from [here](https://github.com/salu133445/lakh-pianoroll-dataset). Next, run 'parse.py' and 'compile.py'.
+To get the processed .npy file. First of all, get 'lpd_cleansed' from [here](https://github.com/salu133445/lakh-pianoroll-dataset). Next, run 'parse.py' and 'compile.py'.
 
 --------------
 
