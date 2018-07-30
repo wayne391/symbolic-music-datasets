@@ -6,7 +6,10 @@ Generally, each dataset is organized as the following way:
 * utils: codes for crawling or processing
 
 ## Piano Roll
+#### 5 track piano-roll dataset
+![image](https://https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/5-track_pianoroll.PNG)
 
+#### lead sheet dataset
 
 ## Lead Sheets
 one melody track accompanied with one chord track
