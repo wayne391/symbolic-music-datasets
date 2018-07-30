@@ -12,7 +12,7 @@ Generally, each dataset is organized as the following way:
 This dataset is derived from [LPD](https://github.com/salu133445/lakh-pianoroll-dataset) with new pre-processing policy.
 
 #### lead sheet dataset
-![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/chorus.png)
+![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/hey_jude_chorus.PNG)
 
 This dataset is derived from [Theorytab]. However, it also has potentials to incoperate with other lead sheet datasets. For further understanding, please refer to this [repository](https://github.com/wayne391/Lead-Sheet-Analysis).
 
