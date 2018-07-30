@@ -7,7 +7,7 @@ Generally, each dataset is organized as the following way:
 
 ## Piano Roll
 #### 5 track piano-roll dataset
-![image](https://https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/5-track_pianoroll.PNG)
+![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/5-track_pianoroll.PNG)
 
 #### lead sheet dataset
 
