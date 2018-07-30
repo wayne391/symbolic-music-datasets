@@ -10,5 +10,5 @@ Improved training data for MuseGAN. Featuring:
 ![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/5-track_pianoroll.PNG)
 --------------
 
-#### sample result on MuseGAN
+#### Sampled result on MuseGAN
 ![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/5-track-pianoroll/musegan/51901.png)
