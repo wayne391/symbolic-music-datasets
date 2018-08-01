@@ -14,7 +14,7 @@ This dataset is derived from [LPD](https://github.com/salu133445/lakh-pianoroll-
 ### lead sheet dataset
 ![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/hey_jude_chorus.PNG)
 
-This dataset is derived from [Theorytab]. However, it also has potentials to incoperate with other lead sheet datasets. For further understanding, please refer to this [repository](https://github.com/wayne391/Lead-Sheet-Analysis/tree/master/lead_sheet_dataset).
+This dataset is derived from [Theorytab]. However, it also has potentials to incoperate with other lead sheet datasets. For further understanding, please refer to this [repo](https://github.com/wayne391/Lead-Sheet-Analysis/tree/master/lead_sheet_dataset).
 
 ## Lead Sheets
 one melody track accompanied with one chord track
