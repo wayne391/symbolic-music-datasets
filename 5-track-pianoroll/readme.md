@@ -1,4 +1,4 @@
-# N-track pianoroll dataset
+# 5-track pianoroll dataset
 
 This repository contains pre-processing codes and processed datasets of [LPD](https://github.com/salu133445/lakh-pianoroll-dataset) dataset.
 
