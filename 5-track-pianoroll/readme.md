@@ -46,4 +46,4 @@ Sample image of 5-track Piano-roll Datasets (ver.2):
 
 ![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/5-track_pianoroll.PNG)
 
-The generated samples of version 2 on MuseGAN is [here]().
+The generated samples of version 2 on MuseGAN is available [here](sample).
