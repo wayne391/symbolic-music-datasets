@@ -97,7 +97,7 @@ def traverse_website():
             time.sleep(sleep_time)
             response_tmp = requests.get(url)
             soup = BeautifulSoup(response_tmp.text, 'html.parser')
-            item_list = soup.find_all("li", {"class": "grid-item"})
+            item_list = soup.find_all("li", {"class": "overlay-trigger"})
 
             if item_list:
                 print(url)
@@ -106,7 +106,7 @@ def traverse_website():
                 break
 
             for item in item_list:
-                url_artist_list.append(item.find_all("a", {"class": "a-tab-cover"})[0]['href'])
+                url_artist_list.append(item.find_all("a", {"class": "a-no-decoration"})[0]['href'])
 
         print('Total:', len(url_artist_list))
 
