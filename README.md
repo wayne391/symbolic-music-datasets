@@ -22,7 +22,7 @@ one melody track accompanied with one chord track
 ### Crawled Datasets
 | Source                | Genre      | Format | Chord | Melody | Songs  | Src  |
 |-----------------------|:----------:|:------:|:-----:|:------:|:------:|:----:|
-| [Theorytab]           |  pop       |   XML  |   V   |   V    | 10148  |  X
+| [Theorytab]           |  pop       |   XML  |   V   |   V    | 10148  |  [O](https://drive.google.com/file/d/13AEVD9xaZIaicEgd8tF1l6aOiRTymJxL/view?usp=sharing)
 | [Wikifonia]           |  pop       |   XML  |   V   |   V    |  6675  |  [O](https://drive.google.com/file/d/155FZ9Uq7QLySv9y2bAtk5LD37XZDo0DF/view?usp=sharing)
 | [Hymnal]              |  hymn      |   MIDI |   Δ   |   V    |  3358  |  [O](https://drive.google.com/drive/folders/1fP9OmQa9amz-nwaaaITggCEWs3ewz1_8?usp=sharing)
 
