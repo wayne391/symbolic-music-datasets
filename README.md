@@ -50,10 +50,14 @@ one melody track accompanied with one chord track
 
 ## Other Resources
 Jazz Realbooks and midis
+
+### High Quality
+http://www.profesordepiano.com/Real%20Book/Realbook.htm?fbclid=IwAR09XcuMD6PMEyUFq0gXAIVFsJVPw8uQSXq5s-o46JFv7OlYVQnwArFOmSk
+
+### Unchecked
 * http://www.musicstudents.com/jam.html (backing track and chord charts)
 * https://www.cs.hmc.edu/~keller/jazz/
 * http://www.ralphpatt.com/Song.html
-* http://www.profesordepiano.com/Real%20Book/Realbook.htm
 * http://www.saxuet.qc.ca/TheSaxyPage/midi.htm
 * http://www.thejazzpage.de/index1.html
 * http://cjam.lassecollin.se/
