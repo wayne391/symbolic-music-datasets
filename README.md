@@ -51,8 +51,9 @@ one melody track accompanied with one chord track
 ## Other Resources
 Jazz Realbooks and midis
 
-### High Quality
-http://www.profesordepiano.com/Real%20Book/Realbook.htm?fbclid=IwAR09XcuMD6PMEyUFq0gXAIVFsJVPw8uQSXq5s-o46JFv7OlYVQnwArFOmSk
+### High Quality Jazz Realbooks
+1. [profesordepiano](http://www.profesordepiano.com/Real%20Book/Realbook.htm?fbclid=IwAR09XcuMD6PMEyUFq0gXAIVFsJVPw8uQSXq5s-o46JFv7OlYVQnwArFOmSk)
+2. [minor9](http://bhs.minor9.com)
 
 ### Unchecked
 * http://www.musicstudents.com/jam.html (backing track and chord charts)
