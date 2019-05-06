@@ -5,6 +5,14 @@ Generally, each dataset is organized as the following way:
 * archive: samples from the dataset
 * utils: codes for crawling or processing
 
+## Contents
+* Piano-roll
+* Lead Sheet 
+* MIDI
+* MISC
+
+---
+
 ## Piano Roll
 ### 5 track piano-roll dataset
 ![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/5-track_pianoroll.PNG)
@@ -15,6 +23,8 @@ This dataset is derived from [LPD](https://github.com/salu133445/lakh-pianoroll-
 ![image](https://github.com/wayne391/List-of-Symbolic-Musical-Datasets/blob/master/docs/hey_jude_chorus.PNG)
 
 This dataset is derived from [Theorytab]. However, it also has potentials to incoperate with other lead sheet datasets. For further understanding, please refer to this [repo](https://github.com/wayne391/Lead-Sheet-Analysis/tree/master/lead_sheet_dataset).
+
+---
 
 ## Lead Sheets
 one melody track accompanied with one chord track
@@ -41,20 +51,22 @@ one melody track accompanied with one chord track
 | [Doug McKenzie Jazz]  |  jazz      |      V      |  MIDI  |  297   |  [O](https://drive.google.com/drive/folders/1wVVDpcov5VV6Govhn1-CT0BOifqoF-Od?usp=sharing)
 | [Piano-e-Competition] |  classical |             |  MIDI  | 1573   |  [O](https://drive.google.com/drive/folders/17yAGt3AR6txSZv8DBcbAbT3luTMkrkIb?usp=sharing)
 
+### Online Resources
+#### Jazz
+* [profesordepiano](http://www.profesordepiano.com/Real%20Book/Realbook.htm?fbclid=IwAR09XcuMD6PMEyUFq0gXAIVFsJVPw8uQSXq5s-o46JFv7OlYVQnwArFOmSk)
+* [minor9](http://bhs.minor9.com)
 
-#### Links
+#### Drum
+* [Groove MIDI Dataset (Magenta)](https://magenta.tensorflow.org/datasets/groove)
 
-* midiworld: http://www.midiworld.com
-* Lakh MIDI dataset: http://colinraffel.com/projects/lmd/
+#### full-scale
+* [midiworld](http://www.midiworld.com)
+* [Lakh MIDI dataset](http://colinraffel.com/projects/lmd/)
 
 
-## Other Resources
-Jazz Realbooks and midis
+---
 
-### High Quality Jazz Realbooks
-1. [profesordepiano](http://www.profesordepiano.com/Real%20Book/Realbook.htm?fbclid=IwAR09XcuMD6PMEyUFq0gXAIVFsJVPw8uQSXq5s-o46JFv7OlYVQnwArFOmSk)
-2. [minor9](http://bhs.minor9.com)
-
+## MISC
 ### Unchecked
 * http://www.musicstudents.com/jam.html (backing track and chord charts)
 * https://www.cs.hmc.edu/~keller/jazz/
