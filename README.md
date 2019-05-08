@@ -58,6 +58,7 @@ one melody track accompanied with one chord track
 
 #### Drum
 * [Groove MIDI Dataset (Magenta)](https://magenta.tensorflow.org/datasets/groove)
+* [Midi Man](https://www.reddit.com/r/WeAreTheMusicMakers/comments/3anwu8/the_drum_percussion_midi_archive_800k/)
 
 #### full-scale
 * [midiworld](http://www.midiworld.com)
