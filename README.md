@@ -40,7 +40,7 @@ one melody track accompanied with one chord track
 #### Links
 
 * WJazzD:  http://jazzomat.hfm-weimar.de/dbformat/dboverview.html
-
+* MIDI format of Theorytab is now available: [Link](https://drive.google.com/file/d/1K1t8L9IRTHnQ1ozRIMRGEyxk_yhN6kLr/view?usp=sharing).
 --------------
 
 ## Midi
